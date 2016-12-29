@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elemen Id and Class selector</title>
+
+	<style type="text/css">
+		
+		header > ul{
+			list-style : none;
+		}
+
+		#divTwo{
+			position: absolute;
+			top: 79px;
+			left: 250px;
+		}
+
+		#divThree{
+			position: absolute;
+			top: 79px;
+			left: 470px;
+		}
+
+		a:link, a:visited{
+			text-decoration: none;
+			border: 1px solid red;
+			background-color: green;
+			color: black;
+			display: block;
+			width: 150px;
+			text-align: center;
+			margin: 2px;
+			font-weight: bold;
+			padding: 3px;
+
+		}
+
+		a:hover, a:active{
+			background-color: orange;
+			color: blue;
+
+		}
+
+		section{
+			border: 2px solid yellow;
+			width: 200px;		
+		}
+
+
+		section div:nth-child(odd){
+			background-color: grey;
+		}
+
+		section div:nth-child(4):hover{
+			cursor: pointer;
+			background-color: orange;
+		}
+
+
+
+	</style>
+
+
+</head>
+<body>
+
+<h1>Psudo Class Selectors</h1>
+
+<header>
+<ul>
+	<div id="divOne"><li> <a href="https://google.com" title="Google" target="_blank">Google</a></li></div>
+	<div id="divTwo"><li> <a href="https://gmail.com" title="Google" target="_blank">Gmail</a></li></div>
+	<div id="divThree"><li> <a href="https://youtube.com" title="Google" target="_blank">Youtube</a></li></div>
+</ul>
+
+</header>
+
+<section>
+	<div>DIV 1</div>
+	<div>DIV 2</div>
+	<div>DIV 3</div>
+	<div>DIV 4</div>
+	<div>DIV 5</div>
+	<div>DIV 6</div>
+	<div>DIV 7</div>
+	<div>DIV 8</div>
+	<div>DIV 9</div>
+</section>
+
+
+
+</body>
+</html>

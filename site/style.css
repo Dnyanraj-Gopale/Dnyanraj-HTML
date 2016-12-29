@@ -1,0 +1,302 @@
+
+
+body{
+	padding : 0px;	
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	font-family: Arial;
+}
+
+#divHeader{
+	background-color: white;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	border-bottom: 1px solid black;
+
+}
+
+#divHeader #nav{
+	margin-top: -60px;
+	margin-left: 550px;
+
+}
+
+#divHeader img{
+	margin-top: 20px;
+	margin-left: -600px;
+}
+
+#divHeader #nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 3px 8px 3px 8px;
+	background-color: #99FF99;
+	font-size: 24px;
+	font-family: pristina;
+	margin: 1px;
+}
+
+#divHeader #nav a{
+	text-decoration: none;
+	color: black;
+}
+
+
+#divHeader #nav a:visited{
+	color: black;
+}
+
+#divHeader #nav a:hover{
+	color: white;
+}
+
+
+#divHeader #nav a:active{
+	color: white;
+}
+
+
+#wrapper{
+
+  width : 85%;
+  height : auto;
+  margin : 0px auto;
+
+}
+
+#wrapper #main img{
+	width: 85%;
+	height: 600px;
+	border: 1px solid grey;
+}
+
+
+#main{
+  height : 600px;
+}
+
+#wrapper #table1{
+	width: 85%;
+	height: 250px;
+	table-layout: fixed;
+}
+
+#wrapper #table1 td{
+	background : #D8D8D8;s
+	font-size: 20px;
+	font-family: arial;	
+	padding : 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0px 0px 10px #000;
+
+}
+
+#wrapper #table1 td h3{
+	text-align: center;
+	font-family: pristina;
+	font-size: 24px;
+}
+
+
+.about-page-content{
+	padding: 30px;
+}
+
+/*.nav-main{
+	width: auto;
+	height:70px;
+	background-color: #E1B6E3;
+	color: #fff;
+	border : 1px solid grey;
+}
+
+.nav-main .logo{
+	float: left;
+	height: 40px;
+	padding: 15px 30px;
+	font-size: 1.4em;
+	line-height: 40px;
+	color: black;
+	font-family: "Comic Sans MS";
+}
+
+.nav-main > ul{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	list-style-type: none;
+}
+
+.nav-main > ul > li{
+	float: left;
+}
+
+.nav-item{
+	display: inline-block;
+	height: 40px;
+	padding: 15px 20px;
+	line-height: 40px;
+	color: black;
+	text-decoration: none;
+}
+
+.nav-item:hover{
+	background-color: grey;
+	color: white;
+}
+
+.nav-item:focus{
+	background-color: orange;
+}
+
+.nav-item:focus ~ .nav-content{
+	max-height: 400px;
+}*/
+
+
+/*.about-page-content{
+	clear: left;
+}*/
+/*
+.nav-content{
+	position: absolute;
+	top: 260px;
+	overflow: hidden;
+	background-color: black;
+	max-height: 0px;
+}
+
+.nav-content a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-content a:hover{
+	background-color: grey;
+	color: white;
+	text-decoration: underline;
+}
+
+.nav-sub{
+	padding: 20px;
+	background-color: grey;
+}
+
+.nav-sub ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.nav-sub ul li a{
+	display : inline-block;
+	padding: 5px 0;
+}
+*/
+
+
+#footer{
+  height: 50px;
+  border-top: 1px solid grey;
+  text-align: center;
+}
+
+
+
+/*#################################################################################################################################################
+
+For Drop down menu 
+#################################################################################################################################################
+*/
+
+.nav-main{
+	background-color: grey;
+	color: white;
+	height: 65px;
+}
+
+.nav-main .logo{
+	float: left;
+	padding: 15px 40px;
+	font-size: 1.4em;
+	font-family: courier;
+	height: 35px;
+	line-height: 35px;
+}
+
+.nav-main ul{
+	margin: 0px;
+	padding:0px;
+	float: left;
+	list-style-type: none;
+}
+
+.nav-main > ul > li{
+	float: left;
+}
+
+.nav-item{
+	display: inline-block;
+	padding: 20px 20px;
+	height: 25px;
+	line-height: -50px;
+	color: white;	
+	text-decoration: none;
+}
+
+.nav-item:hover{
+	background-color: #63605D;
+}
+
+.nav-item:focus{
+	background-color: orange;
+}
+
+.nav-content{
+	position: absolute;
+	top: 253px;
+	overflow: hidden;
+	background-color: grey;
+	color: white;
+	max-height: 0px;
+}
+
+.nav-content a{
+	color: white;
+	text-decoration: none;
+}
+
+.nav-content a:hover{
+	text-decoration: underline;
+}
+
+.nav-sub{
+	padding: 20px;
+}
+
+
+.nav-sub ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+
+.nav-sub ul li a{
+	display: inline-block;
+	padding: 10px 0;
+
+}
+
+.nav-item:focus ~ .nav-content{
+	max-height: 400px;
+	transition: max-height 400ms ease-in;
+	-webkit-transition: max-height 400ms ease-in;
+	-moz-transition: max-height 400ms ease-in;
+
+}
